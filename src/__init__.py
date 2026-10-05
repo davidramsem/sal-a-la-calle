@@ -1,2 +1,3 @@
-"""Sal a la calle CDMX — outdoor plan generator."""
-__version__ = "0.1.0"
+"""Sal a la calle CDMX — local Gemma outdoor planner."""
+
+__version__ = "0.2.0"

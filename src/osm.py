@@ -43,6 +43,9 @@ CDMX_SEED: list[dict[str, Any]] = [
     {"name": "Bosque de Tlalpan", "kind": "woods", "lat": 19.2950, "lon": -99.1750},
     {"name": "Pedregal / Reserva del Pedregal (UNAM area)", "kind": "nature reserve", "lat": 19.3180, "lon": -99.1850},
     {"name": "Parque México — área de aves", "kind": "birding", "lat": 19.4120, "lon": -99.1690},
+    {"name": "Plaza Río de Janeiro", "kind": "plaza", "lat": 19.4198, "lon": -99.1605},
+    {"name": "Jardin del Arte / Sullivan", "kind": "plaza", "lat": 19.4305, "lon": -99.1645},
+    {"name": "Parque Luis G. Urbina (Ramón López Velarde)", "kind": "park", "lat": 19.4065, "lon": -99.1585},
 ]
 
 
@@ -149,8 +152,11 @@ def find_outdoor_spots(
     lon: float,
     radius_m: int = 1800,
     limit: int = 12,
+    force_seed: bool = False,
 ) -> list[dict[str, Any]]:
     """Find parks / markets near lat/lon. Tries Overpass, then curated seed."""
+    if force_seed:
+        return _from_seed(lat, lon, radius_m, limit)
     try:
         spots = _from_overpass(lat, lon, radius_m, limit)
         if spots:

@@ -1,15 +1,21 @@
-"""Open-Meteo weather helper (no API key)."""
+"""Open-Meteo weather helper (no API key) with offline cache fallback."""
 
 from __future__ import annotations
 
+import json
+import os
 import urllib.parse
 import urllib.request
-import json
+from pathlib import Path
 from typing import Any
 
+CACHE_PATH = Path(__file__).resolve().parents[1] / "data" / "weather_cache.json"
 
-def fetch_weather(lat: float, lon: float, hours: int = 6) -> dict[str, Any]:
-    """Fetch current + hourly forecast from Open-Meteo."""
+
+def fetch_weather(lat: float, lon: float, hours: int = 6, offline: bool = False) -> dict[str, Any]:
+    """Fetch current + hourly forecast from Open-Meteo. Falls back to cache if offline."""
+    if offline or os.environ.get("SALA_OFFLINE") == "1":
+        return _from_cache(lat, lon) | {"source": "cache", "offline": True}
     params = {
         "latitude": lat,
         "longitude": lon,
@@ -19,11 +25,14 @@ def fetch_weather(lat: float, lon: float, hours: int = 6) -> dict[str, Any]:
         "forecast_days": 1,
     }
     url = "https://api.open-meteo.com/v1/forecast?" + urllib.parse.urlencode(params)
-    with urllib.request.urlopen(url, timeout=30) as resp:
-        data = json.loads(resp.read().decode())
+    try:
+        with urllib.request.urlopen(url, timeout=20) as resp:
+            data = json.loads(resp.read().decode())
+    except Exception as e:  # noqa: BLE001
+        print(f"[weather] Open-Meteo unavailable ({e}); using cache.", flush=True)
+        return _from_cache(lat, lon) | {"source": "cache", "offline": True}
     current = data.get("current", {})
     hourly = data.get("hourly", {})
-    # Pick next N hours summary
     temps = (hourly.get("temperature_2m") or [])[:hours]
     pops = (hourly.get("precipitation_probability") or [])[:hours]
     summary = {
@@ -36,8 +45,51 @@ def fetch_weather(lat: float, lon: float, hours: int = 6) -> dict[str, Any]:
         "next_hours_precip_prob": pops,
         "label": _label(current.get("weather_code"), current.get("precipitation")),
         "advice": _advice(current, pops),
+        "source": "open-meteo",
+        "offline": False,
     }
+    _save_cache(lat, lon, summary)
     return summary
+
+
+def _cache_key(lat: float, lon: float) -> str:
+    return f"{round(lat, 2)},{round(lon, 2)}"
+
+
+def _load_cache_file() -> dict:
+    if CACHE_PATH.exists():
+        try:
+            return json.loads(CACHE_PATH.read_text(encoding="utf-8"))
+        except Exception:  # noqa: BLE001
+            return {}
+    return {}
+
+
+def _save_cache(lat: float, lon: float, summary: dict[str, Any]) -> None:
+    CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    data = _load_cache_file()
+    data[_cache_key(lat, lon)] = summary
+    data["_default"] = summary
+    CACHE_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def _from_cache(lat: float, lon: float) -> dict[str, Any]:
+    data = _load_cache_file()
+    hit = data.get(_cache_key(lat, lon)) or data.get("_default")
+    if hit:
+        return dict(hit)
+    # Hardcoded mild CDMX autumn fallback
+    return {
+        "temp_c": 20.0,
+        "humidity": 60,
+        "precip_mm": 0.0,
+        "weather_code": 2,
+        "wind_kmh": 8.0,
+        "next_hours_temp_c": [20, 19, 18, 18, 17, 17],
+        "next_hours_precip_prob": [20, 20, 15, 15, 10, 10],
+        "label": "Partly cloudy",
+        "advice": "Mild temps — comfortable for walking. Low rain chance in the next hours.",
+    }
 
 
 def _label(code: int | None, precip: float | None) -> str:
