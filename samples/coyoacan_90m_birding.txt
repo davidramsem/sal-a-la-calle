@@ -1,47 +1,32 @@
 ====================================================
 SAL A LA CALLE CDMX — outdoor plan card
 ====================================================
+Title        : Observación de Aves en Coyoacán
 Neighborhood : Coyoacán (Coyoacán)
-When         : 2026-10-05 14:57 CST
-Free time    : 90 min | Mood: birdwatching
-Weather      : Code 53 · 19.2°C · Mild temps — comfortable for walking. Rain likely — pack a compact umbrella.
-Model        : gemma3-1b-cdmx · 13.53s
+When         : 2026-10-05 15:11 CST
+Free time    : 90 min | Mood: birdwatching / aves
+Weather      : Drizzle · 19.0°C · Mild temps — comfortable for walking. Rain likely — pack a compact umbrella.
+Model        : gemma3-4b-cdmx · 34.27s · 9.92 tok/s
 ----------------------------------------------------
-**Plan: Coyoacán – Birdwatching & Gentle Stroll**
-
-**Title:** Coyoacán Birding Escape
-
-**Time:** 90 minutes
-
-**Mood:** Relaxed, contemplative, bird-focused
-
-**Weather:** Code 53, 19.2°C, Humidity 70% – Mild temps, expect rain.
-
-**Nearby OpenStreetMap Spots:**
-* Jardín Centenario (garden, ~0.1 km)
-* Viveros de Coyoacán (park, ~1.27 km)
-* Parque de los Venados (park, ~2.42 km)
-
-**Here’s your plan:**
-
-**1. Initial Exploration (15 mins)** – Start at the Jardín Centenario (Garden). It’s a beautiful, well-maintained garden with plenty of space to relax and observe.  Walk slowly, taking in the scenery.
-
-**2. Birding Focus (45 mins)** – Head to Viveros de Coyoacán (Park).  Look for various bird species – hummingbirds, tanagers, and swallows are common.  Bring binoculars!
-
-**3.  Tianguis Time (30 mins)** –  Head to a nearby tianguis (market square).  Observe the lively atmosphere, sample some street food (try a *tostada*!), and soak in the local energy. It's a great place to chat with vendors.
-
-**4.  Gentle Bike Ride (15 mins)** – Find a relatively flat section of the Parque de los Venados (Park). Enjoy a leisurely bike ride – it’s a beautiful route along the river.
-
-**Leave the Phone:** Put your phone in your bag; it’s great for photos, but you want to be present and enjoy the moment!
-
-**Important Note:**  Check the weather forecast before you go.  If rain is predicted, pack a compact umbrella.
-
-**Enjoy your birdwatching adventure in Coyoacán!**
+STEPS:
+  1. Jardín Centenario — 32 min
+     Un buen lugar para comenzar la búsqueda de aves en Coyoacán.
+  2. Viveros de Coyoacán — 44 min
+     El vivero ofrece variedad de especies de aves y un ambiente tranquilo para observar.
+Rain backup  : Jardín Centenario (bajo el pórtico)
+Bring        : Binoculares, Paraguas compacto, Agua
+Phone tip    : Apaga el teléfono para concentrarte en los sonidos de la naturaleza y mejorar tu observación.
+Phone-down   : 70 min
+Field challenge:
+  [ ] Identificar 3 especies de aves diferentes
+  [ ] Observar 2 tipos de árboles
+  [ ] Sentarse sin el teléfono durante 5 minutos
 ----------------------------------------------------
-Nearby OSM picks:
-  • Jardín Centenario [garden] ~0.1 km
-  • Viveros de Coyoacán [park] ~1.27 km
-  • Parque de los Venados [park] ~2.42 km
+Nearby OSM / seed picks:
+  • Jardín Centenario [garden] ~0.1 km (~1 min walk)
+  • Viveros de Coyoacán [park] ~1.27 km (~17 min walk)
+  • Parque de los Venados [park] ~2.42 km (~32 min walk)
+Map QR target: https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=19.35,-99.162;19.35,-99.163;19.3535,-99.1735
 ----------------------------------------------------
 Print this card. Put the phone away. Touch grass.
 Open data: OpenStreetMap + Open-Meteo · LLM: local Gemma via Ollama

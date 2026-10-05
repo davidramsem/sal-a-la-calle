@@ -1,52 +1,37 @@
 ====================================================
 SAL A LA CALLE CDMX — outdoor plan card
 ====================================================
+Title        : Paseo Tranquilo en Condesa
 Neighborhood : Condesa (Cuauhtémoc)
-When         : 2026-10-05 14:56 CST
+When         : 2026-10-05 15:10 CST
 Free time    : 60 min | Mood: paseo tranquilo
-Weather      : Rainy / wet · 19.3°C · Mild temps — comfortable for walking. Rain likely — pack a compact umbrella.
-Model        : gemma3-1b-cdmx · 19.18s
+Weather      : Rainy / wet · 19.0°C · Mild temps — comfortable for walking. Rain likely — pack a compact umbrella.
+Model        : gemma3-4b-cdmx · 51.37s · 6.98 tok/s
 ----------------------------------------------------
-**Plan: Paseo Tranquilo en Condesa – Rainy Day**
-
-**Title:** Condesa: Tranquility & Rain
-
-**Mood:** Peseado Tranquilo (Relaxed)
-
-**Time:** 60 Minutes
-
-**Weather:** Rainy / Wet, 19.3°C, Humidity 72%. Pack a compact umbrella.
-
-**Nearby OpenStreetMap Spots:**
-* Parque México (park, ~0.15 km)
-* Parque México — área de aves (birding, ~0.15 km)
-* Parque España (park, ~0.4 km)
-* Mercado de Medellín (tianguis / market, ~0.87 km)
-* Ciclovía Reforma (bike route, ~1.75 km)
-* Bosque de Chapultepec (1a sección) (park, ~1.91 km)
-* Lago de Chapultepec (park, ~2.41 km)
-* Parque Lincoln (park, ~3.07 km)
-
-**Primary Activity:** Bird Watching & Gentle Stroll
-
-**Here’s the plan:**
-
-1.  **Start:** Arrive at Parque México (0.15 km) – Take the bus (Line 2) from Condesa Plaza.
-2.  **Walk:** Explore the park’s trails, focusing on the birdwatching areas. (30 minutes)
-3.  **Rainy Transition:** If rain persists, head to Parque México — área de aves (0.15 km) for a short, sheltered walk.
-4.  **Coffee Break:** Enjoy a coffee and pastel (pastry) at a nearby tianguis (market) – Mercado de Medellín (0.87 km).
-5.  **Bike Ride (Optional):** Cycle along the Ciclovía Reforma (1.75 km) – Enjoy the views.
-6.  **Chapultepec Escape:** Spend time in the Bosque de Chapultepec (1a sección) (1.91 km) – Relax and soak in the atmosphere.
-
-**Leave the Phone:** Disconnect from technology and truly enjoy the moment
+STEPS:
+  1. Parque México — área de aves — 14 min
+     Observar aves en un entorno relajado.
+  2. Parque México — 15 min
+     Disfrutar del ambiente tranquilo del parque.
+  3. Parque España — 22 min
+     Un paseo agradable por un parque con mucha sombra.
+Rain backup  : Parque México — área de aves (bajo los árboles)
+Bring        : Paraguas compacto, Agua, Snacks ligeros
+Phone tip    : Apaga tu teléfono y disfruta del momento presente.
+Phone-down   : 45 min
+Field challenge:
+  [ ] Identificar al menos 3 especies de aves
+  [ ] Observar 5 árboles diferentes
+  [ ] Sentarse sin usar el teléfono durante 5 minutos
 ----------------------------------------------------
-Nearby OSM picks:
-  • Parque México [park] ~0.15 km
-  • Parque México — área de aves [birding] ~0.15 km
-  • Parque España [park] ~0.4 km
-  • Mercado de Medellín [tianguis / market] ~0.87 km
-  • Ciclovía Reforma [bike route] ~1.75 km
-  • Bosque de Chapultepec (1a sección) [park] ~1.91 km
+Nearby OSM / seed picks:
+  • Parque México [park] ~0.15 km (~2 min walk)
+  • Parque México — área de aves [birding] ~0.15 km (~2 min walk)
+  • Parque España [park] ~0.4 km (~5 min walk)
+  • Mercado de Medellín [tianguis / market] ~0.87 km (~12 min walk)
+  • Plaza Río de Janeiro [plaza] ~1.3 km (~17 min walk)
+  • Parque Luis G. Urbina (Ramón López Velarde) [park] ~1.41 km (~19 min walk)
+Map QR target: https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=19.4126,-99.1703;19.412,-99.169;19.4115,-99.1695;19.416,-99.1715
 ----------------------------------------------------
 Print this card. Put the phone away. Touch grass.
 Open data: OpenStreetMap + Open-Meteo · LLM: local Gemma via Ollama

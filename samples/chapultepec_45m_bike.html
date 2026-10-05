@@ -1,117 +1,161 @@
-        <!DOCTYPE html>
-        <html lang="es">
-        <head>
-          <meta charset="utf-8"/>
-          <title>Sal a la calle — Chapultepec / Polanco</title>
-          <style>
-            @page { size: A5; margin: 12mm; }
-            body {
-              font-family: "Segoe UI", system-ui, sans-serif;
-              color: #1a2e1a;
-              background: #f4f7f0;
-              margin: 0;
-              padding: 24px;
-            }
-            .card {
-              max-width: 640px;
-              margin: 0 auto;
-              background: #fffef8;
-              border: 3px solid #2f6b3a;
-              border-radius: 16px;
-              padding: 28px 32px;
-              box-shadow: 0 8px 24px rgba(47,107,58,.15);
-            }
-            h1 {
-              margin: 0 0 4px;
-              font-size: 1.6rem;
-              color: #1f5c2e;
-              letter-spacing: .02em;
-            }
-            .tag {
-              display: inline-block;
-              background: #d8f0c8;
-              color: #1f5c2e;
-              font-size: .75rem;
-              font-weight: 700;
-              padding: 3px 10px;
-              border-radius: 999px;
-              text-transform: uppercase;
-              letter-spacing: .06em;
-            }
-            .meta {
-              margin: 14px 0 18px;
-              font-size: .92rem;
-              line-height: 1.45;
-              color: #334433;
-            }
-            .plan {
-              font-size: 1rem;
-              line-height: 1.5;
-              border-top: 2px dashed #a8c9a0;
-              border-bottom: 2px dashed #a8c9a0;
-              padding: 16px 0;
-              margin: 12px 0;
-            }
-            ul.spots { padding-left: 1.1rem; margin: 8px 0 0; }
-            ul.spots .kind { color: #5a7a5a; font-size: .85rem; }
-            ul.spots .dist { color: #888; font-size: .8rem; }
-            footer {
-              margin-top: 18px;
-              font-size: .78rem;
-              color: #667766;
-            }
-            .cta {
-              margin-top: 14px;
-              font-weight: 700;
-              color: #1f5c2e;
-              font-size: 1.05rem;
-            }
-          </style>
-        </head>
-        <body>
-          <article class="card">
-            <span class="tag">Sal a la calle CDMX</span>
-            <h1>Chapultepec / Polanco · 45 min</h1>
-            <div class="meta">
-              <div><strong>Mood:</strong> easy bike ride</div>
-              <div><strong>When:</strong> 2026-10-05 14:58 CST</div>
-              <div><strong>Weather:</strong> Rainy / wet ·
-                19.3°C — Mild temps — comfortable for walking. Rain likely — pack a compact umbrella.</div>
-              <div><strong>Model:</strong> gemma3-1b-cdmx
-                · 13.03s local</div>
-            </div>
-            <div class="plan">**Mexico City Outdoor Plan – Chapultepec &amp; Polanco (Rainy Day)**<br>
-<br>
-**Title:** Chapultepec &amp; Polanco: A Relaxing Rainy Bike Ride<br>
-<br>
-**Where to Go:** Chapultepec Park &amp; Polanco neighborhood.<br>
-<br>
-**How to Get There:** Take the Metro Line 8 (Chapultepec Station) – a 15-minute ride. Alternatively, walk (approx. 20 minutes) if you’re staying near the park.<br>
-<br>
-**What to Bring:** Waterproof jacket, umbrella, comfortable walking shoes, small backpack, water bottle, snacks.<br>
-<br>
-**Timeline:** 45 minutes<br>
-<br>
-**Primary Activity:** Bike Ride through Chapultepec Park – Focus on the trails and gardens.<br>
-<br>
-**Here’s a suggested route:** Start at the Chapultepec Park entrance (near the plaza). Cycle along the paved paths towards the *Jardín de Adultos Mayores* (approx. 0.7 km). Take a detour through the *Plaza Uruguay* (1.38 km) for a scenic view. Continue towards the *Parque Lincoln* (1.53 km) and then the *Parque America* (1.86 km).<br>
-<br>
-**Optional Backup (Rain):** If the rain intensifies, head back towards the Plaza Uruguay for shelter.<br>
-<br>
-**Birding:**  The Chapultepec Park is a haven for birds. Look for hummingbirds, tanagers, and swallows.<br>
-<br>
-**Tianguis (Market):**  The Mercado Escondido (approx. 1.58 km) is a fantastic spot for a quick tianguis – browse local crafts and food.<br>
-<br>
-**Tips:**  Take your time, enjoy the scenery, and breathe in the fresh air.  Disconnect from your phone and fully immerse yourself in the experience.<br>
-<br>
-**Leave the Phone:**  Enjoy the moment!</div>
-            <div><strong>Nearby OSM picks</strong></div>
-            <ul class="spots"><li><strong>Jardín de Adultos Mayores</strong> <span class='kind'>park</span> <span class='dist'>~0.7 km</span></li><li><strong>Plaza Uruguay</strong> <span class='kind'>park</span> <span class='dist'>~1.38 km</span></li><li><strong>Parque Lincoln</strong> <span class='kind'>park</span> <span class='dist'>~1.53 km</span></li><li><strong>Mercado Escondido</strong> <span class='kind'>tianguis / market</span> <span class='dist'>~1.58 km</span></li><li><strong>Parque Lira</strong> <span class='kind'>park</span> <span class='dist'>~1.68 km</span></li><li><strong>Parque America</strong> <span class='kind'>park</span> <span class='dist'>~1.86 km</span></li></ul>
-            <p class="cta">Print · pocket · phone away · touch grass 🌿</p>
-            <footer>
-              Open data: OpenStreetMap (Overpass) + Open-Meteo ·
-              Open-weight LLM: Gemma via Ollama (local). MIT · 2026
-            </footer>
-          </article>
-        </body>
-        </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Sal a la calle — Chapultepec / Polanco</title>
+  <style>
+    @page { size: A5; margin: 10mm; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      color: #1a2e1a;
+      background: #e8f0e4;
+      margin: 0;
+      padding: 18px;
+    }
+    .card {
+      max-width: 720px;
+      margin: 0 auto;
+      background: linear-gradient(165deg, #fffef8 0%, #f3f9ef 100%);
+      border: 3px solid #2f6b3a;
+      border-radius: 18px;
+      padding: 26px 28px 22px;
+      box-shadow: 0 10px 28px rgba(47,107,58,.18);
+    }
+    .tag {
+      display: inline-block;
+      background: #d8f0c8;
+      color: #1f5c2e;
+      font-size: .72rem;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+    }
+    h1 {
+      margin: 8px 0 2px;
+      font-size: 1.55rem;
+      color: #1f5c2e;
+      line-height: 1.25;
+    }
+    .sub { color: #4a6a4a; font-size: .95rem; margin-bottom: 10px; }
+    .meta {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px 14px;
+      font-size: .88rem;
+      color: #334433;
+      margin-bottom: 14px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.9fr;
+      gap: 16px;
+      align-items: start;
+    }
+    @media (max-width: 640px) {
+      .grid, .meta { grid-template-columns: 1fr; }
+    }
+    h2 {
+      font-size: .95rem;
+      margin: 0 0 8px;
+      color: #2f6b3a;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    ol.steps { list-style: none; padding: 0; margin: 0 0 12px; }
+    ol.steps li {
+      background: #fff;
+      border: 1px solid #cfe3c8;
+      border-radius: 12px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+    }
+    .step-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .step-head .n {
+      background: #2f6b3a; color: #fff; width: 22px; height: 22px;
+      border-radius: 50%; display: inline-flex; align-items: center;
+      justify-content: center; font-size: .75rem; font-weight: 700;
+    }
+    .mins {
+      margin-left: auto; background: #fff3d6; color: #7a4e00;
+      font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 999px;
+    }
+    .why { font-size: .88rem; color: #445544; margin-top: 4px; }
+    .rain, .tip, .timer {
+      font-size: .9rem; background: #eef6ea; border-left: 4px solid #2f6b3a;
+      padding: 8px 10px; border-radius: 0 8px 8px 0; margin: 8px 0;
+    }
+    ul.bring, ul.challenge, ul.spots { padding-left: 1.1rem; margin: 4px 0 10px; }
+    ul.challenge { list-style: none; padding-left: 0; }
+    ul.challenge li { margin: 6px 0; font-size: .92rem; }
+    ul.spots .kind { color: #5a7a5a; font-size: .82rem; }
+    ul.spots .dist { color: #888; font-size: .78rem; }
+    .side { text-align: center; }
+    .qr { width: 120px; height: 120px; image-rendering: pixelated; }
+    .mapcap { font-size: .72rem; color: #667766; margin: 4px 0 10px; }
+    .route { margin: 0 auto 8px; display: block; }
+    .cta {
+      margin-top: 12px; font-weight: 800; color: #1f5c2e; font-size: 1.05rem;
+      text-align: center;
+    }
+    footer {
+      margin-top: 10px; font-size: .72rem; color: #667766; text-align: center;
+    }
+    .print-bar {
+      max-width: 720px; margin: 0 auto 12px; display: flex; gap: 8px; justify-content: flex-end;
+    }
+    .print-bar button {
+      background: #2f6b3a; color: #fff; border: 0; border-radius: 8px;
+      padding: 8px 14px; font-weight: 700; cursor: pointer;
+    }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .print-bar { display: none; }
+      .card { box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="print-bar">
+    <button onclick="window.print()">Print / PDF</button>
+  </div>
+  <article class="card">
+    <span class="tag">Sal a la calle CDMX</span>
+    <h1>Easy Bike &amp; Birding in Chapultepec</h1>
+    <div class="sub">Chapultepec / Polanco · 45 min · easy bike ride</div>
+    <div class="meta">
+      <div><strong>When:</strong> 2026-10-05 15:11 CST</div>
+      <div><strong>Weather:</strong> Rainy / wet · 19.0°C</div>
+      <div><strong>Model:</strong> gemma3-4b-cdmx · 35.78s</div>
+      <div><strong>Phone-down timer:</strong> 42 min</div>
+    </div>
+    <div class="grid">
+      <div>
+        <h2>Route</h2>
+        <ol class="steps"><li><div class='step-head'><span class='n'>1</span> <strong>Bosque de Chapultepec (1a sección)</strong> <span class='mins'>10 min</span></div><div class='why'>Start with a gentle introduction to the park&#x27;s natural beauty.</div></li><li><div class='step-head'><span class='n'>2</span> <strong>Parque México — área de aves</strong> <span class='mins'>15 min</span></div><div class='why'>Excellent spot for birdwatching with a variety of species.</div></li><li><div class='step-head'><span class='n'>3</span> <strong>Ciclovía Reforma</strong> <span class='mins'>10 min</span></div><div class='why'>Enjoy a relaxed bike ride along this popular route.</div></li></ol>
+        <div class="rain"><strong>If it rains:</strong> Jardin del Arte / Sullivan – sheltered plaza for a brief respite.</div>
+        <h2>Bring</h2>
+        <ul class="bring"><li>Compact umbrella</li><li>Water bottle</li><li>Binoculars</li></ul>
+        <div class="tip"><strong>Phone-away tip:</strong> Focus on your surroundings; take photos sparingly to truly appreciate the moment.</div>
+        <h2>Field challenge (offline)</h2>
+        <ul class="challenge"><li><label><input type='checkbox'/> Spot 3 different bird species</label></li><li><label><input type='checkbox'/> Identify 2 types of trees</label></li><li><label><input type='checkbox'/> Sit quietly for 5 minutes without using your phone</label></li></ul>
+      </div>
+      <div class="side">
+        <svg class="route" xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180"><rect width="100%" height="100%" rx="12" fill="#eef6ea" stroke="#2f6b3a"/><line x1="28.6" y1="86.1" x2="25.3" y2="86.1" stroke="#8fbf8f" stroke-width="2" stroke-dasharray="4 3"/><line x1="25.3" y1="86.1" x2="141.4" y2="152.4" stroke="#8fbf8f" stroke-width="2" stroke-dasharray="4 3"/><line x1="141.4" y1="152.4" x2="154.7" y2="27.6" stroke="#8fbf8f" stroke-width="2" stroke-dasharray="4 3"/><circle cx="28.6" cy="86.1" r="7" fill="#2f6b3a"/><text x="28.6" y="89.6" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">Tú</text><circle cx="25.3" cy="86.1" r="7" fill="#c45c26"/><text x="25.3" y="89.6" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">1</text><circle cx="141.4" cy="152.4" r="7" fill="#c45c26"/><text x="141.4" y="155.9" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">2</text><circle cx="154.7" cy="27.6" r="7" fill="#c45c26"/><text x="154.7" y="31.1" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">3</text></svg>
+        <img class="qr" src="data:image/png;base64,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" alt="QR map"/>
+        <div class="mapcap">Scan for walking map</div>
+        <h2>Nearby places (OSM/seed)</h2>
+        <ul class="spots" style="text-align:left"><li><strong>Bosque de Chapultepec (1a sección)</strong> <span class='kind'>park</span> <span class='dist'>~0.05 km · ~1 min</span></li><li><strong>Lago de Chapultepec</strong> <span class='kind'>park</span> <span class='dist'>~0.55 km · ~7 min</span></li><li><strong>Parque Lincoln</strong> <span class='kind'>park</span> <span class='dist'>~1.27 km · ~17 min</span></li><li><strong>Parque España</strong> <span class='kind'>park</span> <span class='dist'>~1.6 km · ~21 min</span></li><li><strong>Parque México</strong> <span class='kind'>park</span> <span class='dist'>~2.0 km · ~27 min</span></li><li><strong>Parque México — área de aves</strong> <span class='kind'>birding</span> <span class='dist'>~2.02 km · ~27 min</span></li></ul>
+      </div>
+    </div>
+    <p class="cta">Print · pocket · phone away · touch grass 🌿</p>
+    <footer>
+      OpenStreetMap + Open-Meteo · Gemma local via Ollama · MIT · 2026
+       · offline seed
+    </footer>
+  </article>
+</body>
+</html>

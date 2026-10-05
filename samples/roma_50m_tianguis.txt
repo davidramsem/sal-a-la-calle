@@ -1,0 +1,36 @@
+====================================================
+SAL A LA CALLE CDMX — outdoor plan card
+====================================================
+Title        : Tianguis & Aves en Roma Norte
+Neighborhood : Roma Norte (Cuauhtémoc)
+When         : 2026-10-05 15:12 CST
+Free time    : 50 min | Mood: tianguis / mercado
+Weather      : Rainy / wet · 19.0°C · Mild temps — comfortable for walking. Rain likely — pack a compact umbrella.
+Model        : gemma3-4b-cdmx · 30.2s · 11.03 tok/s
+----------------------------------------------------
+STEPS:
+  1. Mercado de Medellín — 25 min
+     Explorar el vibrante tianguis y sus productos locales.
+  2. Parque México — área de aves — 20 min
+     Observar aves en este parque con área dedicada a la observación de aves.
+Rain backup  : Plaza Río de Janeiro – refugio bajo el portón en caso de lluvia.
+Bring        : Paraguas compacto, Agua, Snacks
+Phone tip    : Concéntrate en observar y sentir el ambiente, desconéctate del teléfono.
+Phone-down   : 45 min
+Field challenge:
+  [ ] Identificar 3 especies de aves
+  [ ] Observar 5 árboles diferentes
+  [ ] Sentarse sin usar el teléfono durante 5 minutos
+----------------------------------------------------
+Nearby OSM / seed picks:
+  • Plaza Río de Janeiro [plaza] ~0.13 km (~2 min walk)
+  • Parque España [park] ~1.1 km (~15 min walk)
+  • Ciclovía Reforma [bike route] ~1.11 km (~15 min walk)
+  • Parque México — área de aves [birding] ~1.12 km (~15 min walk)
+  • Parque México [park] ~1.2 km (~16 min walk)
+  • Jardin del Arte / Sullivan [plaza] ~1.27 km (~17 min walk)
+Map QR target: https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=19.4194,-99.1617;19.4075,-99.164;19.412,-99.169
+----------------------------------------------------
+Print this card. Put the phone away. Touch grass.
+Open data: OpenStreetMap + Open-Meteo · LLM: local Gemma via Ollama
+====================================================

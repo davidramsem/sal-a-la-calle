@@ -1,122 +1,161 @@
-        <!DOCTYPE html>
-        <html lang="es">
-        <head>
-          <meta charset="utf-8"/>
-          <title>Sal a la calle — Coyoacán</title>
-          <style>
-            @page { size: A5; margin: 12mm; }
-            body {
-              font-family: "Segoe UI", system-ui, sans-serif;
-              color: #1a2e1a;
-              background: #f4f7f0;
-              margin: 0;
-              padding: 24px;
-            }
-            .card {
-              max-width: 640px;
-              margin: 0 auto;
-              background: #fffef8;
-              border: 3px solid #2f6b3a;
-              border-radius: 16px;
-              padding: 28px 32px;
-              box-shadow: 0 8px 24px rgba(47,107,58,.15);
-            }
-            h1 {
-              margin: 0 0 4px;
-              font-size: 1.6rem;
-              color: #1f5c2e;
-              letter-spacing: .02em;
-            }
-            .tag {
-              display: inline-block;
-              background: #d8f0c8;
-              color: #1f5c2e;
-              font-size: .75rem;
-              font-weight: 700;
-              padding: 3px 10px;
-              border-radius: 999px;
-              text-transform: uppercase;
-              letter-spacing: .06em;
-            }
-            .meta {
-              margin: 14px 0 18px;
-              font-size: .92rem;
-              line-height: 1.45;
-              color: #334433;
-            }
-            .plan {
-              font-size: 1rem;
-              line-height: 1.5;
-              border-top: 2px dashed #a8c9a0;
-              border-bottom: 2px dashed #a8c9a0;
-              padding: 16px 0;
-              margin: 12px 0;
-            }
-            ul.spots { padding-left: 1.1rem; margin: 8px 0 0; }
-            ul.spots .kind { color: #5a7a5a; font-size: .85rem; }
-            ul.spots .dist { color: #888; font-size: .8rem; }
-            footer {
-              margin-top: 18px;
-              font-size: .78rem;
-              color: #667766;
-            }
-            .cta {
-              margin-top: 14px;
-              font-weight: 700;
-              color: #1f5c2e;
-              font-size: 1.05rem;
-            }
-          </style>
-        </head>
-        <body>
-          <article class="card">
-            <span class="tag">Sal a la calle CDMX</span>
-            <h1>Coyoacán · 90 min</h1>
-            <div class="meta">
-              <div><strong>Mood:</strong> birdwatching</div>
-              <div><strong>When:</strong> 2026-10-05 14:57 CST</div>
-              <div><strong>Weather:</strong> Code 53 ·
-                19.2°C — Mild temps — comfortable for walking. Rain likely — pack a compact umbrella.</div>
-              <div><strong>Model:</strong> gemma3-1b-cdmx
-                · 13.53s local</div>
-            </div>
-            <div class="plan">**Plan: Coyoacán – Birdwatching &amp; Gentle Stroll**<br>
-<br>
-**Title:** Coyoacán Birding Escape<br>
-<br>
-**Time:** 90 minutes<br>
-<br>
-**Mood:** Relaxed, contemplative, bird-focused<br>
-<br>
-**Weather:** Code 53, 19.2°C, Humidity 70% – Mild temps, expect rain.<br>
-<br>
-**Nearby OpenStreetMap Spots:**<br>
-* Jardín Centenario (garden, ~0.1 km)<br>
-* Viveros de Coyoacán (park, ~1.27 km)<br>
-* Parque de los Venados (park, ~2.42 km)<br>
-<br>
-**Here’s your plan:**<br>
-<br>
-**1. Initial Exploration (15 mins)** – Start at the Jardín Centenario (Garden). It’s a beautiful, well-maintained garden with plenty of space to relax and observe.  Walk slowly, taking in the scenery.<br>
-<br>
-**2. Birding Focus (45 mins)** – Head to Viveros de Coyoacán (Park).  Look for various bird species – hummingbirds, tanagers, and swallows are common.  Bring binoculars!<br>
-<br>
-**3.  Tianguis Time (30 mins)** –  Head to a nearby tianguis (market square).  Observe the lively atmosphere, sample some street food (try a *tostada*!), and soak in the local energy. It&#x27;s a great place to chat with vendors.<br>
-<br>
-**4.  Gentle Bike Ride (15 mins)** – Find a relatively flat section of the Parque de los Venados (Park). Enjoy a leisurely bike ride – it’s a beautiful route along the river.<br>
-<br>
-**Leave the Phone:** Put your phone in your bag; it’s great for photos, but you want to be present and enjoy the moment!<br>
-<br>
-**Important Note:**  Check the weather forecast before you go.  If rain is predicted, pack a compact umbrella.<br>
-<br>
-**Enjoy your birdwatching adventure in Coyoacán!**</div>
-            <div><strong>Nearby OSM picks</strong></div>
-            <ul class="spots"><li><strong>Jardín Centenario</strong> <span class='kind'>garden</span> <span class='dist'>~0.1 km</span></li><li><strong>Viveros de Coyoacán</strong> <span class='kind'>park</span> <span class='dist'>~1.27 km</span></li><li><strong>Parque de los Venados</strong> <span class='kind'>park</span> <span class='dist'>~2.42 km</span></li></ul>
-            <p class="cta">Print · pocket · phone away · touch grass 🌿</p>
-            <footer>
-              Open data: OpenStreetMap (Overpass) + Open-Meteo ·
-              Open-weight LLM: Gemma via Ollama (local). MIT · 2026
-            </footer>
-          </article>
-        </body>
-        </html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Sal a la calle — Coyoacán</title>
+  <style>
+    @page { size: A5; margin: 10mm; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      color: #1a2e1a;
+      background: #e8f0e4;
+      margin: 0;
+      padding: 18px;
+    }
+    .card {
+      max-width: 720px;
+      margin: 0 auto;
+      background: linear-gradient(165deg, #fffef8 0%, #f3f9ef 100%);
+      border: 3px solid #2f6b3a;
+      border-radius: 18px;
+      padding: 26px 28px 22px;
+      box-shadow: 0 10px 28px rgba(47,107,58,.18);
+    }
+    .tag {
+      display: inline-block;
+      background: #d8f0c8;
+      color: #1f5c2e;
+      font-size: .72rem;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+    }
+    h1 {
+      margin: 8px 0 2px;
+      font-size: 1.55rem;
+      color: #1f5c2e;
+      line-height: 1.25;
+    }
+    .sub { color: #4a6a4a; font-size: .95rem; margin-bottom: 10px; }
+    .meta {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px 14px;
+      font-size: .88rem;
+      color: #334433;
+      margin-bottom: 14px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.9fr;
+      gap: 16px;
+      align-items: start;
+    }
+    @media (max-width: 640px) {
+      .grid, .meta { grid-template-columns: 1fr; }
+    }
+    h2 {
+      font-size: .95rem;
+      margin: 0 0 8px;
+      color: #2f6b3a;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    ol.steps { list-style: none; padding: 0; margin: 0 0 12px; }
+    ol.steps li {
+      background: #fff;
+      border: 1px solid #cfe3c8;
+      border-radius: 12px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+    }
+    .step-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .step-head .n {
+      background: #2f6b3a; color: #fff; width: 22px; height: 22px;
+      border-radius: 50%; display: inline-flex; align-items: center;
+      justify-content: center; font-size: .75rem; font-weight: 700;
+    }
+    .mins {
+      margin-left: auto; background: #fff3d6; color: #7a4e00;
+      font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 999px;
+    }
+    .why { font-size: .88rem; color: #445544; margin-top: 4px; }
+    .rain, .tip, .timer {
+      font-size: .9rem; background: #eef6ea; border-left: 4px solid #2f6b3a;
+      padding: 8px 10px; border-radius: 0 8px 8px 0; margin: 8px 0;
+    }
+    ul.bring, ul.challenge, ul.spots { padding-left: 1.1rem; margin: 4px 0 10px; }
+    ul.challenge { list-style: none; padding-left: 0; }
+    ul.challenge li { margin: 6px 0; font-size: .92rem; }
+    ul.spots .kind { color: #5a7a5a; font-size: .82rem; }
+    ul.spots .dist { color: #888; font-size: .78rem; }
+    .side { text-align: center; }
+    .qr { width: 120px; height: 120px; image-rendering: pixelated; }
+    .mapcap { font-size: .72rem; color: #667766; margin: 4px 0 10px; }
+    .route { margin: 0 auto 8px; display: block; }
+    .cta {
+      margin-top: 12px; font-weight: 800; color: #1f5c2e; font-size: 1.05rem;
+      text-align: center;
+    }
+    footer {
+      margin-top: 10px; font-size: .72rem; color: #667766; text-align: center;
+    }
+    .print-bar {
+      max-width: 720px; margin: 0 auto 12px; display: flex; gap: 8px; justify-content: flex-end;
+    }
+    .print-bar button {
+      background: #2f6b3a; color: #fff; border: 0; border-radius: 8px;
+      padding: 8px 14px; font-weight: 700; cursor: pointer;
+    }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .print-bar { display: none; }
+      .card { box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="print-bar">
+    <button onclick="window.print()">Print / PDF</button>
+  </div>
+  <article class="card">
+    <span class="tag">Sal a la calle CDMX</span>
+    <h1>Observación de Aves en Coyoacán</h1>
+    <div class="sub">Coyoacán · 90 min · birdwatching / aves</div>
+    <div class="meta">
+      <div><strong>Cuándo:</strong> 2026-10-05 15:11 CST</div>
+      <div><strong>Clima:</strong> Drizzle · 19.0°C</div>
+      <div><strong>Modelo:</strong> gemma3-4b-cdmx · 34.27s</div>
+      <div><strong>Temporizador phone-down:</strong> 70 min</div>
+    </div>
+    <div class="grid">
+      <div>
+        <h2>Ruta</h2>
+        <ol class="steps"><li><div class='step-head'><span class='n'>1</span> <strong>Jardín Centenario</strong> <span class='mins'>32 min</span></div><div class='why'>Un buen lugar para comenzar la búsqueda de aves en Coyoacán.</div></li><li><div class='step-head'><span class='n'>2</span> <strong>Viveros de Coyoacán</strong> <span class='mins'>44 min</span></div><div class='why'>El vivero ofrece variedad de especies de aves y un ambiente tranquilo para observar.</div></li></ol>
+        <div class="rain"><strong>Si llueve:</strong> Jardín Centenario (bajo el pórtico)</div>
+        <h2>Lleva</h2>
+        <ul class="bring"><li>Binoculares</li><li>Paraguas compacto</li><li>Agua</li></ul>
+        <div class="tip"><strong>Tip anti-celular:</strong> Apaga el teléfono para concentrarte en los sonidos de la naturaleza y mejorar tu observación.</div>
+        <h2>Reto de campo (offline)</h2>
+        <ul class="challenge"><li><label><input type='checkbox'/> Identificar 3 especies de aves diferentes</label></li><li><label><input type='checkbox'/> Observar 2 tipos de árboles</label></li><li><label><input type='checkbox'/> Sentarse sin el teléfono durante 5 minutos</label></li></ul>
+      </div>
+      <div class="side">
+        <svg class="route" xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180"><rect width="100%" height="100%" rx="12" fill="#eef6ea" stroke="#2f6b3a"/><line x1="147.9" y1="126.4" x2="137.8" y2="126.4" stroke="#8fbf8f" stroke-width="2" stroke-dasharray="4 3"/><line x1="137.8" y1="126.4" x2="32.1" y2="53.6" stroke="#8fbf8f" stroke-width="2" stroke-dasharray="4 3"/><circle cx="147.9" cy="126.4" r="7" fill="#2f6b3a"/><text x="147.9" y="129.9" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">Tú</text><circle cx="137.8" cy="126.4" r="7" fill="#c45c26"/><text x="137.8" y="129.9" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">1</text><circle cx="32.1" cy="53.6" r="7" fill="#c45c26"/><text x="32.1" y="57.1" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">2</text></svg>
+        <img class="qr" src="data:image/png;base64,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" alt="QR map"/>
+        <div class="mapcap">Escanea para el mapa a pie</div>
+        <h2>Lugares cercanos (OSM/seed)</h2>
+        <ul class="spots" style="text-align:left"><li><strong>Jardín Centenario</strong> <span class='kind'>garden</span> <span class='dist'>~0.1 km · ~1 min</span></li><li><strong>Viveros de Coyoacán</strong> <span class='kind'>park</span> <span class='dist'>~1.27 km · ~17 min</span></li><li><strong>Parque de los Venados</strong> <span class='kind'>park</span> <span class='dist'>~2.42 km · ~32 min</span></li></ul>
+      </div>
+    </div>
+    <p class="cta">Imprime · bolsillo · celular lejos · toca el pasto 🌿</p>
+    <footer>
+      OpenStreetMap + Open-Meteo · Gemma local via Ollama · MIT · 2026
+       · offline seed
+    </footer>
+  </article>
+</body>
+</html>

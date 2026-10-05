@@ -10,11 +10,11 @@
   "mood": "easy bike ride",
   "language": "en",
   "weather": {
-    "temp_c": 19.3,
-    "humidity": 72,
+    "temp_c": 19.0,
+    "humidity": 73,
     "precip_mm": 0.4,
     "weather_code": 80,
-    "wind_kmh": 8.7,
+    "wind_kmh": 8.1,
     "next_hours_temp_c": [
       14.5,
       14.3,
@@ -24,90 +24,199 @@
       13.9
     ],
     "next_hours_precip_prob": [
-      59,
-      50,
-      42,
-      35,
-      29,
-      24
+      90,
+      79,
+      65,
+      55,
+      53,
+      55
     ],
     "label": "Rainy / wet",
-    "advice": "Mild temps — comfortable for walking. Rain likely — pack a compact umbrella."
+    "advice": "Mild temps — comfortable for walking. Rain likely — pack a compact umbrella.",
+    "source": "cache",
+    "offline": true
   },
   "spots": [
     {
-      "name": "Jardín de Adultos Mayores",
+      "name": "Bosque de Chapultepec (1a sección)",
       "kind": "park",
-      "lat": 19.42406,
-      "lon": -99.19148,
-      "distance_km": 0.7,
-      "source": "overpass",
-      "tags": {
-        "leisure": "park"
-      }
+      "lat": 19.4205,
+      "lon": -99.1865,
+      "distance_km": 0.05,
+      "source": "cdmx_seed",
+      "walk_min": 1
     },
     {
-      "name": "Plaza Uruguay",
+      "name": "Lago de Chapultepec",
       "kind": "park",
-      "lat": 19.43279,
-      "lon": -99.18769,
-      "distance_km": 1.38,
-      "source": "overpass",
-      "tags": {
-        "leisure": "park"
-      }
+      "lat": 19.422,
+      "lon": -99.191,
+      "distance_km": 0.55,
+      "source": "cdmx_seed",
+      "walk_min": 7
     },
     {
       "name": "Parque Lincoln",
       "kind": "park",
-      "lat": 19.42953,
-      "lon": -99.19703,
-      "distance_km": 1.53,
-      "source": "overpass",
-      "tags": {
-        "leisure": "park"
-      }
+      "lat": 19.4295,
+      "lon": -99.1935,
+      "distance_km": 1.27,
+      "source": "cdmx_seed",
+      "walk_min": 17
     },
     {
-      "name": "Mercado Escondido",
+      "name": "Parque España",
+      "kind": "park",
+      "lat": 19.416,
+      "lon": -99.1715,
+      "distance_km": 1.6,
+      "source": "cdmx_seed",
+      "walk_min": 21
+    },
+    {
+      "name": "Parque México",
+      "kind": "park",
+      "lat": 19.4115,
+      "lon": -99.1695,
+      "distance_km": 2.0,
+      "source": "cdmx_seed",
+      "walk_min": 27
+    },
+    {
+      "name": "Parque México — área de aves",
+      "kind": "birding",
+      "lat": 19.412,
+      "lon": -99.169,
+      "distance_km": 2.02,
+      "source": "cdmx_seed",
+      "walk_min": 27
+    },
+    {
+      "name": "Ciclovía Reforma",
+      "kind": "bike route",
+      "lat": 19.428,
+      "lon": -99.167,
+      "distance_km": 2.16,
+      "source": "cdmx_seed",
+      "walk_min": 29
+    },
+    {
+      "name": "Jardin del Arte / Sullivan",
+      "kind": "plaza",
+      "lat": 19.4305,
+      "lon": -99.1645,
+      "distance_km": 2.51,
+      "source": "cdmx_seed",
+      "walk_min": 33
+    },
+    {
+      "name": "Plaza Río de Janeiro",
+      "kind": "plaza",
+      "lat": 19.4198,
+      "lon": -99.1605,
+      "distance_km": 2.68,
+      "source": "cdmx_seed",
+      "walk_min": 36
+    },
+    {
+      "name": "Mercado de Medellín",
       "kind": "tianguis / market",
-      "lat": 19.43081,
-      "lon": -99.19634,
-      "distance_km": 1.58,
-      "source": "overpass",
-      "tags": {
-        "amenity": "marketplace"
-      }
+      "lat": 19.4075,
+      "lon": -99.164,
+      "distance_km": 2.72,
+      "source": "cdmx_seed",
+      "walk_min": 36
     },
     {
-      "name": "Parque Lira",
+      "name": "Parque Luis G. Urbina (Ramón López Velarde)",
       "kind": "park",
-      "lat": 19.4059,
-      "lon": -99.18999,
-      "distance_km": 1.68,
-      "source": "overpass",
-      "tags": {
-        "leisure": "park"
-      }
-    },
-    {
-      "name": "Parque America",
-      "kind": "park",
-      "lat": 19.43392,
-      "lon": -99.19657,
-      "distance_km": 1.86,
-      "source": "overpass",
-      "tags": {
-        "leisure": "park"
-      }
+      "lat": 19.4065,
+      "lon": -99.1585,
+      "distance_km": 3.28,
+      "source": "cdmx_seed",
+      "walk_min": 44
     }
   ],
-  "plan_text": "**Mexico City Outdoor Plan – Chapultepec & Polanco (Rainy Day)**\n\n**Title:** Chapultepec & Polanco: A Relaxing Rainy Bike Ride\n\n**Where to Go:** Chapultepec Park & Polanco neighborhood.\n\n**How to Get There:** Take the Metro Line 8 (Chapultepec Station) – a 15-minute ride. Alternatively, walk (approx. 20 minutes) if you’re staying near the park.\n\n**What to Bring:** Waterproof jacket, umbrella, comfortable walking shoes, small backpack, water bottle, snacks.\n\n**Timeline:** 45 minutes\n\n**Primary Activity:** Bike Ride through Chapultepec Park – Focus on the trails and gardens.\n\n**Here’s a suggested route:** Start at the Chapultepec Park entrance (near the plaza). Cycle along the paved paths towards the *Jardín de Adultos Mayores* (approx. 0.7 km). Take a detour through the *Plaza Uruguay* (1.38 km) for a scenic view. Continue towards the *Parque Lincoln* (1.53 km) and then the *Parque America* (1.86 km).\n\n**Optional Backup (Rain):** If the rain intensifies, head back towards the Plaza Uruguay for shelter.\n\n**Birding:**  The Chapultepec Park is a haven for birds. Look for hummingbirds, tanagers, and swallows.\n\n**Tianguis (Market):**  The Mercado Escondido (approx. 1.58 km) is a fantastic spot for a quick tianguis – browse local crafts and food.\n\n**Tips:**  Take your time, enjoy the scenery, and breathe in the fresh air.  Disconnect from your phone and fully immerse yourself in the experience.\n\n**Leave the Phone:**  Enjoy the moment!",
-  "meta": {
-    "model": "gemma3-1b-cdmx",
-    "elapsed_s": 13.03,
-    "eval_count": 387,
-    "tokens_per_s": 32.62
+  "structured": {
+    "title": "Easy Bike & Birding in Chapultepec",
+    "steps": [
+      {
+        "place": "Bosque de Chapultepec (1a sección)",
+        "minutes": 10,
+        "why": "Start with a gentle introduction to the park's natural beauty."
+      },
+      {
+        "place": "Parque México — área de aves",
+        "minutes": 15,
+        "why": "Excellent spot for birdwatching with a variety of species."
+      },
+      {
+        "place": "Ciclovía Reforma",
+        "minutes": 10,
+        "why": "Enjoy a relaxed bike ride along this popular route."
+      }
+    ],
+    "rain_backup": "Jardin del Arte / Sullivan – sheltered plaza for a brief respite.",
+    "what_to_bring": [
+      "Compact umbrella",
+      "Water bottle",
+      "Binoculars"
+    ],
+    "leave_the_phone_tip": "Focus on your surroundings; take photos sparingly to truly appreciate the moment.",
+    "field_challenge": [
+      "Spot 3 different bird species",
+      "Identify 2 types of trees",
+      "Sit quietly for 5 minutes without using your phone"
+    ],
+    "phone_down_minutes": 42,
+    "_repaired": false,
+    "_repair_notes": []
   },
-  "generated_at": "2026-10-05 14:58 CST"
+  "plan_text": "Easy Bike & Birding in Chapultepec\n\n1. Bosque de Chapultepec (1a sección) (10 min) — Start with a gentle introduction to the park's natural beauty.\n2. Parque México — área de aves (15 min) — Excellent spot for birdwatching with a variety of species.\n3. Ciclovía Reforma (10 min) — Enjoy a relaxed bike ride along this popular route.\n\nRain: Jardin del Arte / Sullivan – sheltered plaza for a brief respite.\nBring: Compact umbrella, Water bottle, Binoculars\nPhone tip: Focus on your surroundings; take photos sparingly to truly appreciate the moment.\nPhone-down: 42 min\nField challenge:\n  [ ] Spot 3 different bird species\n  [ ] Identify 2 types of trees\n  [ ] Sit quietly for 5 minutes without using your phone",
+  "map_url": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=19.4205,-99.186;19.4205,-99.1865;19.412,-99.169;19.428,-99.167",
+  "route_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><rect width=\"100%\" height=\"100%\" rx=\"12\" fill=\"#eef6ea\" stroke=\"#2f6b3a\"/><line x1=\"28.6\" y1=\"86.1\" x2=\"25.3\" y2=\"86.1\" stroke=\"#8fbf8f\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><line x1=\"25.3\" y1=\"86.1\" x2=\"141.4\" y2=\"152.4\" stroke=\"#8fbf8f\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><line x1=\"141.4\" y1=\"152.4\" x2=\"154.7\" y2=\"27.6\" stroke=\"#8fbf8f\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><circle cx=\"28.6\" cy=\"86.1\" r=\"7\" fill=\"#2f6b3a\"/><text x=\"28.6\" y=\"89.6\" text-anchor=\"middle\" font-size=\"8\" fill=\"#fff\" font-family=\"sans-serif\">Tú</text><circle cx=\"25.3\" cy=\"86.1\" r=\"7\" fill=\"#c45c26\"/><text x=\"25.3\" y=\"89.6\" text-anchor=\"middle\" font-size=\"8\" fill=\"#fff\" font-family=\"sans-serif\">1</text><circle cx=\"141.4\" cy=\"152.4\" r=\"7\" fill=\"#c45c26\"/><text x=\"141.4\" y=\"155.9\" text-anchor=\"middle\" font-size=\"8\" fill=\"#fff\" font-family=\"sans-serif\">2</text><circle cx=\"154.7\" cy=\"27.6\" r=\"7\" fill=\"#c45c26\"/><text x=\"154.7\" y=\"31.1\" text-anchor=\"middle\" font-size=\"8\" fill=\"#fff\" font-family=\"sans-serif\">3</text></svg>",
+  "offline": true,
+  "meta": {
+    "model": "gemma3-4b-cdmx",
+    "elapsed_s": 35.78,
+    "eval_count": 304,
+    "tokens_per_s": 10.19,
+    "prompt_eval_s": 5.54,
+    "eval_s": 29.83,
+    "raw_json": {
+      "title": "Easy Bike & Birding in Chapultepec",
+      "steps": [
+        {
+          "place": "Bosque de Chapultepec (1a sección)",
+          "minutes": 10,
+          "why": "Start with a gentle introduction to the park's natural beauty."
+        },
+        {
+          "place": "Parque México — área de aves",
+          "minutes": 15,
+          "why": "Excellent spot for birdwatching with a variety of species."
+        },
+        {
+          "place": "Ciclovía Reforma",
+          "minutes": 10,
+          "why": "Enjoy a relaxed bike ride along this popular route."
+        }
+      ],
+      "rain_backup": "Jardin del Arte / Sullivan – sheltered plaza for a brief respite.",
+      "what_to_bring": [
+        "Compact umbrella",
+        "Water bottle",
+        "Binoculars"
+      ],
+      "leave_the_phone_tip": "Focus on your surroundings; take photos sparingly to truly appreciate the moment.",
+      "field_challenge": [
+        "Spot 3 different bird species",
+        "Identify 2 types of trees",
+        "Sit quietly for 5 minutes without using your phone"
+      ],
+      "phone_down_minutes": 42
+    },
+    "repair_notes": []
+  },
+  "generated_at": "2026-10-05 15:11 CST"
 }

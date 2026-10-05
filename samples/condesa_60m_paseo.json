@@ -10,11 +10,11 @@
   "mood": "paseo tranquilo",
   "language": "es",
   "weather": {
-    "temp_c": 19.3,
-    "humidity": 72,
+    "temp_c": 19.0,
+    "humidity": 73,
     "precip_mm": 0.4,
     "weather_code": 80,
-    "wind_kmh": 8.7,
+    "wind_kmh": 8.1,
     "next_hours_temp_c": [
       14.5,
       14.3,
@@ -32,7 +32,9 @@
       55
     ],
     "label": "Rainy / wet",
-    "advice": "Mild temps — comfortable for walking. Rain likely — pack a compact umbrella."
+    "advice": "Mild temps — comfortable for walking. Rain likely — pack a compact umbrella.",
+    "source": "open-meteo",
+    "offline": false
   },
   "spots": [
     {
@@ -41,7 +43,8 @@
       "lat": 19.4115,
       "lon": -99.1695,
       "distance_km": 0.15,
-      "source": "cdmx_seed"
+      "source": "cdmx_seed",
+      "walk_min": 2
     },
     {
       "name": "Parque México — área de aves",
@@ -49,7 +52,8 @@
       "lat": 19.412,
       "lon": -99.169,
       "distance_km": 0.15,
-      "source": "cdmx_seed"
+      "source": "cdmx_seed",
+      "walk_min": 2
     },
     {
       "name": "Parque España",
@@ -57,7 +61,8 @@
       "lat": 19.416,
       "lon": -99.1715,
       "distance_km": 0.4,
-      "source": "cdmx_seed"
+      "source": "cdmx_seed",
+      "walk_min": 5
     },
     {
       "name": "Mercado de Medellín",
@@ -65,7 +70,26 @@
       "lat": 19.4075,
       "lon": -99.164,
       "distance_km": 0.87,
-      "source": "cdmx_seed"
+      "source": "cdmx_seed",
+      "walk_min": 12
+    },
+    {
+      "name": "Plaza Río de Janeiro",
+      "kind": "plaza",
+      "lat": 19.4198,
+      "lon": -99.1605,
+      "distance_km": 1.3,
+      "source": "cdmx_seed",
+      "walk_min": 17
+    },
+    {
+      "name": "Parque Luis G. Urbina (Ramón López Velarde)",
+      "kind": "park",
+      "lat": 19.4065,
+      "lon": -99.1585,
+      "distance_km": 1.41,
+      "source": "cdmx_seed",
+      "walk_min": 19
     },
     {
       "name": "Ciclovía Reforma",
@@ -73,7 +97,8 @@
       "lat": 19.428,
       "lon": -99.167,
       "distance_km": 1.75,
-      "source": "cdmx_seed"
+      "source": "cdmx_seed",
+      "walk_min": 23
     },
     {
       "name": "Bosque de Chapultepec (1a sección)",
@@ -81,7 +106,17 @@
       "lat": 19.4205,
       "lon": -99.1865,
       "distance_km": 1.91,
-      "source": "cdmx_seed"
+      "source": "cdmx_seed",
+      "walk_min": 25
+    },
+    {
+      "name": "Jardin del Arte / Sullivan",
+      "kind": "plaza",
+      "lat": 19.4305,
+      "lon": -99.1645,
+      "distance_km": 2.08,
+      "source": "cdmx_seed",
+      "walk_min": 28
     },
     {
       "name": "Lago de Chapultepec",
@@ -89,7 +124,8 @@
       "lat": 19.422,
       "lon": -99.191,
       "distance_km": 2.41,
-      "source": "cdmx_seed"
+      "source": "cdmx_seed",
+      "walk_min": 32
     },
     {
       "name": "Parque Lincoln",
@@ -97,15 +133,94 @@
       "lat": 19.4295,
       "lon": -99.1935,
       "distance_km": 3.07,
-      "source": "cdmx_seed"
+      "source": "cdmx_seed",
+      "walk_min": 41
     }
   ],
-  "plan_text": "**Plan: Paseo Tranquilo en Condesa – Rainy Day**\n\n**Title:** Condesa: Tranquility & Rain\n\n**Mood:** Peseado Tranquilo (Relaxed)\n\n**Time:** 60 Minutes\n\n**Weather:** Rainy / Wet, 19.3°C, Humidity 72%. Pack a compact umbrella.\n\n**Nearby OpenStreetMap Spots:**\n* Parque México (park, ~0.15 km)\n* Parque México — área de aves (birding, ~0.15 km)\n* Parque España (park, ~0.4 km)\n* Mercado de Medellín (tianguis / market, ~0.87 km)\n* Ciclovía Reforma (bike route, ~1.75 km)\n* Bosque de Chapultepec (1a sección) (park, ~1.91 km)\n* Lago de Chapultepec (park, ~2.41 km)\n* Parque Lincoln (park, ~3.07 km)\n\n**Primary Activity:** Bird Watching & Gentle Stroll\n\n**Here’s the plan:**\n\n1.  **Start:** Arrive at Parque México (0.15 km) – Take the bus (Line 2) from Condesa Plaza.\n2.  **Walk:** Explore the park’s trails, focusing on the birdwatching areas. (30 minutes)\n3.  **Rainy Transition:** If rain persists, head to Parque México — área de aves (0.15 km) for a short, sheltered walk.\n4.  **Coffee Break:** Enjoy a coffee and pastel (pastry) at a nearby tianguis (market) – Mercado de Medellín (0.87 km).\n5.  **Bike Ride (Optional):** Cycle along the Ciclovía Reforma (1.75 km) – Enjoy the views.\n6.  **Chapultepec Escape:** Spend time in the Bosque de Chapultepec (1a sección) (1.91 km) – Relax and soak in the atmosphere.\n\n**Leave the Phone:** Disconnect from technology and truly enjoy the moment",
-  "meta": {
-    "model": "gemma3-1b-cdmx",
-    "elapsed_s": 19.18,
-    "eval_count": 450,
-    "tokens_per_s": 31.54
+  "structured": {
+    "title": "Paseo Tranquilo en Condesa",
+    "steps": [
+      {
+        "place": "Parque México — área de aves",
+        "minutes": 14,
+        "why": "Observar aves en un entorno relajado."
+      },
+      {
+        "place": "Parque México",
+        "minutes": 15,
+        "why": "Disfrutar del ambiente tranquilo del parque."
+      },
+      {
+        "place": "Parque España",
+        "minutes": 22,
+        "why": "Un paseo agradable por un parque con mucha sombra."
+      }
+    ],
+    "rain_backup": "Parque México — área de aves (bajo los árboles)",
+    "what_to_bring": [
+      "Paraguas compacto",
+      "Agua",
+      "Snacks ligeros"
+    ],
+    "leave_the_phone_tip": "Apaga tu teléfono y disfruta del momento presente.",
+    "field_challenge": [
+      "Identificar al menos 3 especies de aves",
+      "Observar 5 árboles diferentes",
+      "Sentarse sin usar el teléfono durante 5 minutos"
+    ],
+    "phone_down_minutes": 45,
+    "_repaired": true,
+    "_repair_notes": [
+      "scaled_minutes"
+    ]
   },
-  "generated_at": "2026-10-05 14:56 CST"
+  "plan_text": "Paseo Tranquilo en Condesa\n\n1. Parque México — área de aves (14 min) — Observar aves en un entorno relajado.\n2. Parque México (15 min) — Disfrutar del ambiente tranquilo del parque.\n3. Parque España (22 min) — Un paseo agradable por un parque con mucha sombra.\n\nRain: Parque México — área de aves (bajo los árboles)\nBring: Paraguas compacto, Agua, Snacks ligeros\nPhone tip: Apaga tu teléfono y disfruta del momento presente.\nPhone-down: 45 min\nField challenge:\n  [ ] Identificar al menos 3 especies de aves\n  [ ] Observar 5 árboles diferentes\n  [ ] Sentarse sin usar el teléfono durante 5 minutos",
+  "map_url": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=19.4126,-99.1703;19.412,-99.169;19.4115,-99.1695;19.416,-99.1715",
+  "route_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"180\" viewBox=\"0 0 180 180\"><rect width=\"100%\" height=\"100%\" rx=\"12\" fill=\"#eef6ea\" stroke=\"#2f6b3a\"/><line x1=\"88.8\" y1=\"111.1\" x2=\"120.0\" y2=\"122.1\" stroke=\"#8fbf8f\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><line x1=\"120.0\" y1=\"122.1\" x2=\"108.0\" y2=\"131.3\" stroke=\"#8fbf8f\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><line x1=\"108.0\" y1=\"131.3\" x2=\"60.0\" y2=\"48.7\" stroke=\"#8fbf8f\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><circle cx=\"88.8\" cy=\"111.1\" r=\"7\" fill=\"#2f6b3a\"/><text x=\"88.8\" y=\"114.6\" text-anchor=\"middle\" font-size=\"8\" fill=\"#fff\" font-family=\"sans-serif\">Tú</text><circle cx=\"120.0\" cy=\"122.1\" r=\"7\" fill=\"#c45c26\"/><text x=\"120.0\" y=\"125.6\" text-anchor=\"middle\" font-size=\"8\" fill=\"#fff\" font-family=\"sans-serif\">1</text><circle cx=\"108.0\" cy=\"131.3\" r=\"7\" fill=\"#c45c26\"/><text x=\"108.0\" y=\"134.8\" text-anchor=\"middle\" font-size=\"8\" fill=\"#fff\" font-family=\"sans-serif\">2</text><circle cx=\"60.0\" cy=\"48.7\" r=\"7\" fill=\"#c45c26\"/><text x=\"60.0\" y=\"52.2\" text-anchor=\"middle\" font-size=\"8\" fill=\"#fff\" font-family=\"sans-serif\">3</text></svg>",
+  "offline": false,
+  "meta": {
+    "model": "gemma3-4b-cdmx",
+    "elapsed_s": 51.37,
+    "eval_count": 290,
+    "tokens_per_s": 6.98,
+    "prompt_eval_s": 9.15,
+    "eval_s": 41.55,
+    "raw_json": {
+      "title": "Paseo Tranquilo en Condesa",
+      "steps": [
+        {
+          "place": "Parque México — área de aves",
+          "minutes": 10,
+          "why": "Observar aves en un entorno relajado."
+        },
+        {
+          "place": "Parque México",
+          "minutes": 10,
+          "why": "Disfrutar del ambiente tranquilo del parque."
+        },
+        {
+          "place": "Parque España",
+          "minutes": 15,
+          "why": "Un paseo agradable por un parque con mucha sombra."
+        }
+      ],
+      "rain_backup": "Parque México — área de aves (bajo los árboles)",
+      "what_to_bring": [
+        "Paraguas compacto",
+        "Agua",
+        "Snacks ligeros"
+      ],
+      "leave_the_phone_tip": "Apaga tu teléfono y disfruta del momento presente.",
+      "field_challenge": [
+        "Identificar al menos 3 especies de aves",
+        "Observar 5 árboles diferentes",
+        "Sentarse sin usar el teléfono durante 5 minutos"
+      ],
+      "phone_down_minutes": 45
+    },
+    "repair_notes": [
+      "scaled_minutes"
+    ]
+  },
+  "generated_at": "2026-10-05 15:10 CST"
 }
