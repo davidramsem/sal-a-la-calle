@@ -1,9 +1,8 @@
 .venv/
 __pycache__/
 *.pyc
-.pytest_cache/
-models/*.gguf
-models/.cache/
-*.egg-info/
+models/
+*.gguf
 .DS_Store
-.env
+data/weather_cache.json.bak
+.pytest_cache/
