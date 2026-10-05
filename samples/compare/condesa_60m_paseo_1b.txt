@@ -1,0 +1,36 @@
+====================================================
+SAL A LA CALLE CDMX — outdoor plan card
+====================================================
+Title        : Condesa: paseo tranquilo
+Neighborhood : Condesa (Cuauhtémoc)
+When         : 2026-10-05 15:12 CST
+Free time    : 60 min | Mood: paseo tranquilo
+Weather      : Rainy / wet · 19.0°C · Mild temps — comfortable for walking. Rain likely — pack a compact umbrella.
+Model        : gemma3-1b-cdmx · 21.81s · 33.4 tok/s
+----------------------------------------------------
+STEPS:
+  1. Parque México — 29 min
+     A ~2 min caminando; encaja con tu mood.
+  2. Parque México — área de aves — 29 min
+     Segundo tramo cercano para variar el paisaje.
+Rain backup  : Si llueve: quédate bajo los árboles/pérgola en Parque México o acorta a 20 min.
+Bring        : Paraguas compacto, Botella de agua, Zapatos cómodos
+Phone tip    : Pon el teléfono en modo avión al llegar al primer parque.
+Phone-down   : 42 min
+Field challenge:
+  [ ] Señala 3 árboles distintos
+  [ ] Escucha 1 sonido natural
+  [ ] Siéntate 2 min sin celular
+----------------------------------------------------
+Nearby OSM / seed picks:
+  • Parque México [park] ~0.15 km (~2 min walk)
+  • Parque México — área de aves [birding] ~0.15 km (~2 min walk)
+  • Parque España [park] ~0.4 km (~5 min walk)
+  • Mercado de Medellín [tianguis / market] ~0.87 km (~12 min walk)
+  • Plaza Río de Janeiro [plaza] ~1.3 km (~17 min walk)
+  • Parque Luis G. Urbina (Ramón López Velarde) [park] ~1.41 km (~19 min walk)
+Map QR target: https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=19.4126,-99.1703;19.4115,-99.1695;19.412,-99.169
+----------------------------------------------------
+Print this card. Put the phone away. Touch grass.
+Open data: OpenStreetMap + Open-Meteo · LLM: local Gemma via Ollama
+====================================================

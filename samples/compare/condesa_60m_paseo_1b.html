@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Sal a la calle — Condesa</title>
+  <style>
+    @page { size: A5; margin: 10mm; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      color: #1a2e1a;
+      background: #e8f0e4;
+      margin: 0;
+      padding: 18px;
+    }
+    .card {
+      max-width: 720px;
+      margin: 0 auto;
+      background: linear-gradient(165deg, #fffef8 0%, #f3f9ef 100%);
+      border: 3px solid #2f6b3a;
+      border-radius: 18px;
+      padding: 26px 28px 22px;
+      box-shadow: 0 10px 28px rgba(47,107,58,.18);
+    }
+    .tag {
+      display: inline-block;
+      background: #d8f0c8;
+      color: #1f5c2e;
+      font-size: .72rem;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+    }
+    h1 {
+      margin: 8px 0 2px;
+      font-size: 1.55rem;
+      color: #1f5c2e;
+      line-height: 1.25;
+    }
+    .sub { color: #4a6a4a; font-size: .95rem; margin-bottom: 10px; }
+    .meta {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px 14px;
+      font-size: .88rem;
+      color: #334433;
+      margin-bottom: 14px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.9fr;
+      gap: 16px;
+      align-items: start;
+    }
+    @media (max-width: 640px) {
+      .grid, .meta { grid-template-columns: 1fr; }
+    }
+    h2 {
+      font-size: .95rem;
+      margin: 0 0 8px;
+      color: #2f6b3a;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    ol.steps { list-style: none; padding: 0; margin: 0 0 12px; }
+    ol.steps li {
+      background: #fff;
+      border: 1px solid #cfe3c8;
+      border-radius: 12px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+    }
+    .step-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .step-head .n {
+      background: #2f6b3a; color: #fff; width: 22px; height: 22px;
+      border-radius: 50%; display: inline-flex; align-items: center;
+      justify-content: center; font-size: .75rem; font-weight: 700;
+    }
+    .mins {
+      margin-left: auto; background: #fff3d6; color: #7a4e00;
+      font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 999px;
+    }
+    .why { font-size: .88rem; color: #445544; margin-top: 4px; }
+    .rain, .tip, .timer {
+      font-size: .9rem; background: #eef6ea; border-left: 4px solid #2f6b3a;
+      padding: 8px 10px; border-radius: 0 8px 8px 0; margin: 8px 0;
+    }
+    ul.bring, ul.challenge, ul.spots { padding-left: 1.1rem; margin: 4px 0 10px; }
+    ul.challenge { list-style: none; padding-left: 0; }
+    ul.challenge li { margin: 6px 0; font-size: .92rem; }
+    ul.spots .kind { color: #5a7a5a; font-size: .82rem; }
+    ul.spots .dist { color: #888; font-size: .78rem; }
+    .side { text-align: center; }
+    .qr { width: 120px; height: 120px; image-rendering: pixelated; }
+    .mapcap { font-size: .72rem; color: #667766; margin: 4px 0 10px; }
+    .route { margin: 0 auto 8px; display: block; }
+    .cta {
+      margin-top: 12px; font-weight: 800; color: #1f5c2e; font-size: 1.05rem;
+      text-align: center;
+    }
+    footer {
+      margin-top: 10px; font-size: .72rem; color: #667766; text-align: center;
+    }
+    .print-bar {
+      max-width: 720px; margin: 0 auto 12px; display: flex; gap: 8px; justify-content: flex-end;
+    }
+    .print-bar button {
+      background: #2f6b3a; color: #fff; border: 0; border-radius: 8px;
+      padding: 8px 14px; font-weight: 700; cursor: pointer;
+    }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .print-bar { display: none; }
+      .card { box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="print-bar">
+    <button onclick="window.print()">Print / PDF</button>
+  </div>
+  <article class="card">
+    <span class="tag">Sal a la calle CDMX</span>
+    <h1>Condesa: paseo tranquilo</h1>
+    <div class="sub">Condesa · 60 min · paseo tranquilo</div>
+    <div class="meta">
+      <div><strong>Cuándo:</strong> 2026-10-05 15:12 CST</div>
+      <div><strong>Clima:</strong> Rainy / wet · 19.0°C</div>
+      <div><strong>Modelo:</strong> gemma3-1b-cdmx · 21.81s</div>
+      <div><strong>Temporizador phone-down:</strong> 42 min</div>
+    </div>
+    <div class="grid">
+      <div>
+        <h2>Ruta</h2>
+        <ol class="steps"><li><div class='step-head'><span class='n'>1</span> <strong>Parque México</strong> <span class='mins'>29 min</span></div><div class='why'>A ~2 min caminando; encaja con tu mood.</div></li><li><div class='step-head'><span class='n'>2</span> <strong>Parque México — área de aves</strong> <span class='mins'>29 min</span></div><div class='why'>Segundo tramo cercano para variar el paisaje.</div></li></ol>
+        <div class="rain"><strong>Si llueve:</strong> Si llueve: quédate bajo los árboles/pérgola en Parque México o acorta a 20 min.</div>
+        <h2>Lleva</h2>
+        <ul class="bring"><li>Paraguas compacto</li><li>Botella de agua</li><li>Zapatos cómodos</li></ul>
+        <div class="tip"><strong>Tip anti-celular:</strong> Pon el teléfono en modo avión al llegar al primer parque.</div>
+        <h2>Reto de campo (offline)</h2>
+        <ul class="challenge"><li><label><input type='checkbox'/> Señala 3 árboles distintos</label></li><li><label><input type='checkbox'/> Escucha 1 sonido natural</label></li><li><label><input type='checkbox'/> Siéntate 2 min sin celular</label></li></ul>
+      </div>
+      <div class="side">
+        <svg class="route" xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180"><rect width="100%" height="100%" rx="12" fill="#eef6ea" stroke="#2f6b3a"/><line x1="70.9" y1="73.2" x2="94.4" y2="106.8" stroke="#8fbf8f" stroke-width="2" stroke-dasharray="4 3"/><line x1="94.4" y1="106.8" x2="109.1" y2="91.5" stroke="#8fbf8f" stroke-width="2" stroke-dasharray="4 3"/><circle cx="70.9" cy="73.2" r="7" fill="#2f6b3a"/><text x="70.9" y="76.7" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">Tú</text><circle cx="94.4" cy="106.8" r="7" fill="#c45c26"/><text x="94.4" y="110.3" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">1</text><circle cx="109.1" cy="91.5" r="7" fill="#c45c26"/><text x="109.1" y="95.0" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">2</text></svg>
+        <img class="qr" src="data:image/png;base64,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" alt="QR map"/>
+        <div class="mapcap">Escanea para el mapa a pie</div>
+        <h2>Lugares cercanos (OSM/seed)</h2>
+        <ul class="spots" style="text-align:left"><li><strong>Parque México</strong> <span class='kind'>park</span> <span class='dist'>~0.15 km · ~2 min</span></li><li><strong>Parque México — área de aves</strong> <span class='kind'>birding</span> <span class='dist'>~0.15 km · ~2 min</span></li><li><strong>Parque España</strong> <span class='kind'>park</span> <span class='dist'>~0.4 km · ~5 min</span></li><li><strong>Mercado de Medellín</strong> <span class='kind'>tianguis / market</span> <span class='dist'>~0.87 km · ~12 min</span></li><li><strong>Plaza Río de Janeiro</strong> <span class='kind'>plaza</span> <span class='dist'>~1.3 km · ~17 min</span></li><li><strong>Parque Luis G. Urbina (Ramón López Velarde)</strong> <span class='kind'>park</span> <span class='dist'>~1.41 km · ~19 min</span></li></ul>
+      </div>
+    </div>
+    <p class="cta">Imprime · bolsillo · celular lejos · toca el pasto 🌿</p>
+    <footer>
+      OpenStreetMap + Open-Meteo · Gemma local via Ollama · MIT · 2026
+       · offline seed
+    </footer>
+  </article>
+</body>
+</html>

@@ -1,0 +1,44 @@
+elapsed_s=14.91
+tokens_per_s=33.86
+eval_count=500
+
+{
+  "title": "Paseo Tranquilo en Condesa",
+  "steps": [
+    {
+      "place": "Parque México | kind=park | 0.15 km, ~2 min walk",
+      "minutes": 10,
+      "why": "Start with a gentle walk to acclimatize to the rain."
+    },
+    {
+      "place": "Parque México — área de aves | kind=birding | 0.15 km, ~2 min walk",
+      "minutes": 5,
+      "why": "Observe local birdlife – a pleasant, relaxing experience."
+    },
+    {
+      "place": "Mercado de Medellín | kind=tianguis / market | 0.87 km, ~12 min walk",
+      "minutes": 15,
+      "why": "Briefly explore local food stalls – a taste of Condesa culture."
+    },
+    {
+      "place": "Plaza Río de Janeiro | kind=plaza | 1.3 km, ~17 min walk",
+      "minutes": 20,
+      "why": "Enjoy the ambiance of the plaza – a bit of street market charm."
+    },
+    {
+      "place": "Parque Luis G. Urbina (Ramón López Velarde) | kind=park | 1.41 km, ~19 min walk",
+      "minutes": 15,
+      "why": "Take a short, scenic route through the park – a bit of a respite."
+    },
+    {
+      "place": "Ciclovía Reforma | kind=bike route | 1.75 km, ~23 min walk",
+      "minutes": 10,
+      "why": "Enjoy the flow of the ciclovía – a vibrant urban experience."
+    },
+    {
+      "place": "Bosque de Chapultepec (1a sección) | kind=park | 1.91 km, ~25 min walk",
+      "minutes": 15,
+      "why": "A longer walk to appreciate the landscape – a bit of nature."
+    },
+    {
+      "place": "Parque México | kind=park | 0
