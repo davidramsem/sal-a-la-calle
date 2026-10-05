@@ -1,0 +1,46 @@
+====================================================
+SAL A LA CALLE CDMX — outdoor plan card
+====================================================
+Neighborhood : Chapultepec / Polanco (Miguel Hidalgo)
+When         : 2026-10-05 14:58 CST
+Free time    : 45 min | Mood: easy bike ride
+Weather      : Rainy / wet · 19.3°C · Mild temps — comfortable for walking. Rain likely — pack a compact umbrella.
+Model        : gemma3-1b-cdmx · 13.03s
+----------------------------------------------------
+**Mexico City Outdoor Plan – Chapultepec & Polanco (Rainy Day)**
+
+**Title:** Chapultepec & Polanco: A Relaxing Rainy Bike Ride
+
+**Where to Go:** Chapultepec Park & Polanco neighborhood.
+
+**How to Get There:** Take the Metro Line 8 (Chapultepec Station) – a 15-minute ride. Alternatively, walk (approx. 20 minutes) if you’re staying near the park.
+
+**What to Bring:** Waterproof jacket, umbrella, comfortable walking shoes, small backpack, water bottle, snacks.
+
+**Timeline:** 45 minutes
+
+**Primary Activity:** Bike Ride through Chapultepec Park – Focus on the trails and gardens.
+
+**Here’s a suggested route:** Start at the Chapultepec Park entrance (near the plaza). Cycle along the paved paths towards the *Jardín de Adultos Mayores* (approx. 0.7 km). Take a detour through the *Plaza Uruguay* (1.38 km) for a scenic view. Continue towards the *Parque Lincoln* (1.53 km) and then the *Parque America* (1.86 km).
+
+**Optional Backup (Rain):** If the rain intensifies, head back towards the Plaza Uruguay for shelter.
+
+**Birding:**  The Chapultepec Park is a haven for birds. Look for hummingbirds, tanagers, and swallows.
+
+**Tianguis (Market):**  The Mercado Escondido (approx. 1.58 km) is a fantastic spot for a quick tianguis – browse local crafts and food.
+
+**Tips:**  Take your time, enjoy the scenery, and breathe in the fresh air.  Disconnect from your phone and fully immerse yourself in the experience.
+
+**Leave the Phone:**  Enjoy the moment!
+----------------------------------------------------
+Nearby OSM picks:
+  • Jardín de Adultos Mayores [park] ~0.7 km
+  • Plaza Uruguay [park] ~1.38 km
+  • Parque Lincoln [park] ~1.53 km
+  • Mercado Escondido [tianguis / market] ~1.58 km
+  • Parque Lira [park] ~1.68 km
+  • Parque America [park] ~1.86 km
+----------------------------------------------------
+Print this card. Put the phone away. Touch grass.
+Open data: OpenStreetMap + Open-Meteo · LLM: local Gemma via Ollama
+====================================================

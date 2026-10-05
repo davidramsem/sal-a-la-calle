@@ -1,0 +1,71 @@
+{
+  "neighborhood": {
+    "name": "Coyoacán",
+    "lat": 19.35,
+    "lon": -99.162,
+    "alcaldia": "Coyoacán",
+    "tips": "Jardín Centenario, Viveros, weekend vibes."
+  },
+  "minutes": 90,
+  "mood": "birdwatching",
+  "language": "es",
+  "weather": {
+    "temp_c": 19.2,
+    "humidity": 70,
+    "precip_mm": 0.2,
+    "weather_code": 53,
+    "wind_kmh": 8.0,
+    "next_hours_temp_c": [
+      14.5,
+      14.5,
+      14.3,
+      14.3,
+      14.2,
+      14.1
+    ],
+    "next_hours_precip_prob": [
+      90,
+      79,
+      65,
+      55,
+      53,
+      55
+    ],
+    "label": "Code 53",
+    "advice": "Mild temps — comfortable for walking. Rain likely — pack a compact umbrella."
+  },
+  "spots": [
+    {
+      "name": "Jardín Centenario",
+      "kind": "garden",
+      "lat": 19.35,
+      "lon": -99.163,
+      "distance_km": 0.1,
+      "source": "cdmx_seed"
+    },
+    {
+      "name": "Viveros de Coyoacán",
+      "kind": "park",
+      "lat": 19.3535,
+      "lon": -99.1735,
+      "distance_km": 1.27,
+      "source": "cdmx_seed"
+    },
+    {
+      "name": "Parque de los Venados",
+      "kind": "park",
+      "lat": 19.371,
+      "lon": -99.156,
+      "distance_km": 2.42,
+      "source": "cdmx_seed"
+    }
+  ],
+  "plan_text": "**Plan: Coyoacán – Birdwatching & Gentle Stroll**\n\n**Title:** Coyoacán Birding Escape\n\n**Time:** 90 minutes\n\n**Mood:** Relaxed, contemplative, bird-focused\n\n**Weather:** Code 53, 19.2°C, Humidity 70% – Mild temps, expect rain.\n\n**Nearby OpenStreetMap Spots:**\n* Jardín Centenario (garden, ~0.1 km)\n* Viveros de Coyoacán (park, ~1.27 km)\n* Parque de los Venados (park, ~2.42 km)\n\n**Here’s your plan:**\n\n**1. Initial Exploration (15 mins)** – Start at the Jardín Centenario (Garden). It’s a beautiful, well-maintained garden with plenty of space to relax and observe.  Walk slowly, taking in the scenery.\n\n**2. Birding Focus (45 mins)** – Head to Viveros de Coyoacán (Park).  Look for various bird species – hummingbirds, tanagers, and swallows are common.  Bring binoculars!\n\n**3.  Tianguis Time (30 mins)** –  Head to a nearby tianguis (market square).  Observe the lively atmosphere, sample some street food (try a *tostada*!), and soak in the local energy. It's a great place to chat with vendors.\n\n**4.  Gentle Bike Ride (15 mins)** – Find a relatively flat section of the Parque de los Venados (Park). Enjoy a leisurely bike ride – it’s a beautiful route along the river.\n\n**Leave the Phone:** Put your phone in your bag; it’s great for photos, but you want to be present and enjoy the moment!\n\n**Important Note:**  Check the weather forecast before you go.  If rain is predicted, pack a compact umbrella.\n\n**Enjoy your birdwatching adventure in Coyoacán!**",
+  "meta": {
+    "model": "gemma3-1b-cdmx",
+    "elapsed_s": 13.53,
+    "eval_count": 417,
+    "tokens_per_s": 34.11
+  },
+  "generated_at": "2026-10-05 14:57 CST"
+}

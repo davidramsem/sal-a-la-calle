@@ -1,0 +1,48 @@
+====================================================
+SAL A LA CALLE CDMX — outdoor plan card
+====================================================
+Neighborhood : Coyoacán (Coyoacán)
+When         : 2026-10-05 14:57 CST
+Free time    : 90 min | Mood: birdwatching
+Weather      : Code 53 · 19.2°C · Mild temps — comfortable for walking. Rain likely — pack a compact umbrella.
+Model        : gemma3-1b-cdmx · 13.53s
+----------------------------------------------------
+**Plan: Coyoacán – Birdwatching & Gentle Stroll**
+
+**Title:** Coyoacán Birding Escape
+
+**Time:** 90 minutes
+
+**Mood:** Relaxed, contemplative, bird-focused
+
+**Weather:** Code 53, 19.2°C, Humidity 70% – Mild temps, expect rain.
+
+**Nearby OpenStreetMap Spots:**
+* Jardín Centenario (garden, ~0.1 km)
+* Viveros de Coyoacán (park, ~1.27 km)
+* Parque de los Venados (park, ~2.42 km)
+
+**Here’s your plan:**
+
+**1. Initial Exploration (15 mins)** – Start at the Jardín Centenario (Garden). It’s a beautiful, well-maintained garden with plenty of space to relax and observe.  Walk slowly, taking in the scenery.
+
+**2. Birding Focus (45 mins)** – Head to Viveros de Coyoacán (Park).  Look for various bird species – hummingbirds, tanagers, and swallows are common.  Bring binoculars!
+
+**3.  Tianguis Time (30 mins)** –  Head to a nearby tianguis (market square).  Observe the lively atmosphere, sample some street food (try a *tostada*!), and soak in the local energy. It's a great place to chat with vendors.
+
+**4.  Gentle Bike Ride (15 mins)** – Find a relatively flat section of the Parque de los Venados (Park). Enjoy a leisurely bike ride – it’s a beautiful route along the river.
+
+**Leave the Phone:** Put your phone in your bag; it’s great for photos, but you want to be present and enjoy the moment!
+
+**Important Note:**  Check the weather forecast before you go.  If rain is predicted, pack a compact umbrella.
+
+**Enjoy your birdwatching adventure in Coyoacán!**
+----------------------------------------------------
+Nearby OSM picks:
+  • Jardín Centenario [garden] ~0.1 km
+  • Viveros de Coyoacán [park] ~1.27 km
+  • Parque de los Venados [park] ~2.42 km
+----------------------------------------------------
+Print this card. Put the phone away. Touch grass.
+Open data: OpenStreetMap + Open-Meteo · LLM: local Gemma via Ollama
+====================================================
